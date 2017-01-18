@@ -27,8 +27,9 @@ class GittieHelper():
         """
         self.day_of_year = day_number
 
-    def get_value(self):
-        """
-        Method should calculate if exiting home is safe for gittie
-        """
-        pass
+    def get_value_method(self):
+
+        if self.temperature > 20 and self.humidity < 60 and self.air_pollution < 40:
+            return "You can go out"
+        else:
+            return "Stay home"
