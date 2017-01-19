@@ -21,10 +21,7 @@ class GittieHelper():
         self.air_pollution = air_pollution_level
 
     def set_day_of_the_year(self, day_number):
-        """
-        Method sets day number from beginning of the year to attribute and validate input
-        :param day_number:
-        """
+"""hbkjfhsbkdjhgbdkrjbgkdjrk"""
         self.day_of_year = day_number
 
 
@@ -34,5 +31,5 @@ class GittieHelper():
         if self.temperature > 20 and self.humidity < 60 and self.air_pollution < 40:
             return "You can go out"
         else:
-            return "Stay home"
+            return "Stay home!!!!"
 
