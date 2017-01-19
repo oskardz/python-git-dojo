@@ -1,15 +1,20 @@
 class GittieHelper():
 
+    """initial function"""
+
     def __init__(self):
         self.temperature = None
         self.humidity = None
         self.air_polution = None
         self.day_of_year = None
 
+        """set. temperature"""
 
     def set_temperature(self, temperature_degree):
         self.temperature  = temperature_degree
+        """set humitidyty"""
 
+        
     def set_humidity(self, humidity_value):
         self.humidity = humidity_value
 
